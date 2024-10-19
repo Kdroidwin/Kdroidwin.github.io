@@ -73,6 +73,28 @@
       font-size: 0.875rem;
       color: #555;
     }
+    /* ブログセクションのデザイン */
+    .blog-post {
+      margin-bottom: 2rem;
+    }
+    .blog-post h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+    .blog-post p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .blog-post a {
+      color: #42b883;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .blog-post a:hover {
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -84,6 +106,7 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#docs">Docs</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#blog">Blog</a></li> <!-- ブログへのリンクを追加 -->
     </ul>
   </nav>
   <main>
@@ -91,13 +114,32 @@
       <h2>Home</h2>
       <p>Welcome to this page.</p>
     </section>
+
     <section id="about">
       <h2>About</h2>
       <p>これは、テスト</p>
     </section>
+
+    <!-- ブログセクションの追加 -->
+    <section id="blog">
+      <h2>Blog</h2>
+      <div class="blog-post">
+        <h3>ブログ記事のタイトル1</h3>
+        <p><strong>投稿日:</strong> 2024-10-01</p>
+        <p>このブログ記事の概要がここに入ります</p>
+        <a href="#">Read more</a>
+      </div>
+      <div class="blog-post">
+        <h3>ブログ記事のタイトル2</h3>
+        <p><strong>投稿日:</strong> 2024-09-15</p>
+        <p>このブログ記事の概要がここに入りま</p>
+        <a href="#">Read more</a>
+      </div>
+      <!-- さらに記事を追加可能 -->
+    </section>
   </main>
   <footer>
-    &copy; 2024 kdroidwin. All rights reserved.
+    &copy; 2024 Kdroidwin. All rights reserved.
   </footer>
 </body>
 </html>
