@@ -3,48 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VitePress Style</title>
+  <title>Stylish VitePress Style</title>
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
     }
     header {
-      background-color: #42b883;
+      background-color: #000; /* 上のバーを黒に */
       color: white;
-      padding: 1rem;
+      padding: 1.5rem;
       text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
     nav {
       margin-top: 1rem;
+      background-color: #333; /* 黒に近いナビゲーション背景 */
+      padding: 0.5rem 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #42b883; /* VitePressのアクセントカラー */
+      color: #fff;
+      border-radius: 4px;
     }
     main {
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 900px;
+      margin: 2rem auto;
       padding: 2rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    main h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #42b883;
+    }
+    main p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      font-size: 0.875rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Kdroidwin</h1>
+    Kdroidwin
   </header>
   <nav>
-    <ul class="flex justify-center space-x-4">
-      <li><a href="#home" class="text-green-500">Home</a></li>
-      <li><a href="#docs" class="text-green-500">Docs</a></li>
-      <li><a href="#about" class="text-green-500">About</a></li>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#docs">Docs</a></li>
+      <li><a href="#about">About</a></li>
     </ul>
   </nav>
   <main>
     <section id="home">
       <h2>Home</h2>
-      <p>Welcome to 仮のホームページです。</p>
+      <p>Welcome to this page.</p>
     </section>
     <section id="about">
       <h2>About</h2>
-      <p>これはVitePressのデザインを模倣したサイトです。</p>
+      <p>これは、テスト</p>
     </section>
   </main>
+  <footer>
+    &copy; 2024 kdroidwin. All rights reserved.
+  </footer>
 </body>
 </html>
