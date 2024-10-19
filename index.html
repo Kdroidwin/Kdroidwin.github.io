@@ -3,28 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stylish VitePress Style</title>
+  <title>Futuristic VitePress Style</title>
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
+      background-color: #111; /* 背景をダークカラーに */
+      color: #ddd; /* 文字色を淡いグレーに */
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #000; /* 上のバーを黒に */
-      color: white;
+      background-color: #000;
+      color: #0ff; /* ネオンブルーの文字色 */
       padding: 1.5rem;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5); /* ヘッダーの発光効果 */
     }
     nav {
       margin-top: 1rem;
-      background-color: #333; /* 黒に近いナビゲーション背景 */
+      background-color: #222;
       padding: 0.5rem 0;
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5); /* ナビバーの発光効果 */
     }
     nav ul {
       display: flex;
@@ -37,30 +41,29 @@
       margin: 0 1rem;
     }
     nav ul li a {
-      color: white;
+      color: #0ff;
       text-decoration: none;
       font-size: 1rem;
       font-weight: bold;
       padding: 0.5rem 1rem;
-      transition: background-color 0.3s ease, color 0.3s ease;
+      transition: color 0.3s ease, box-shadow 0.3s ease;
     }
     nav ul li a:hover {
-      background-color: #42b883; /* VitePressのアクセントカラー */
       color: #fff;
-      border-radius: 4px;
+      box-shadow: 0 0 8px #0ff, 0 0 15px #0ff; /* ホバー時のネオングロー効果 */
     }
     main {
       max-width: 900px;
       margin: 2rem auto;
       padding: 2rem;
-      background-color: white;
+      background-color: #222;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3); /* メインコンテンツの発光効果 */
     }
     main h2 {
       font-size: 1.75rem;
       margin-bottom: 1rem;
-      color: #42b883;
+      color: #0ff; /* セクションタイトルもネオンカラー */
     }
     main p {
       font-size: 1rem;
@@ -71,7 +74,8 @@
       text-align: center;
       padding: 2rem 0;
       font-size: 0.875rem;
-      color: #555;
+      color: #666;
+      border-top: 1px solid #333;
     }
     /* ブログセクションのデザイン */
     .blog-post {
@@ -79,67 +83,67 @@
     }
     .blog-post h3 {
       font-size: 1.5rem;
-      color: #333;
+      color: #0ff;
       margin-bottom: 0.5rem;
     }
     .blog-post p {
       font-size: 0.9rem;
-      color: #666;
+      color: #aaa;
     }
     .blog-post a {
-      color: #42b883;
+      color: #0ff;
       text-decoration: none;
       font-weight: bold;
-      transition: color 0.3s ease;
+      transition: color 0.3s ease, box-shadow 0.3s ease;
     }
     .blog-post a:hover {
-      color: #333;
+      color: #fff;
+      box-shadow: 0 0 8px #0ff, 0 0 15px #0ff; /* リンクホバー時の発光効果 */
     }
   </style>
 </head>
 <body>
   <header>
-    Kdroidwin
+    kdroidwin
   </header>
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#docs">Docs</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#blog">Blog</a></li> <!-- ブログへのリンクを追加 -->
+      <li><a href="#blog">Blog</a></li>
     </ul>
   </nav>
   <main>
     <section id="home">
       <h2>Home</h2>
-      <p>Welcome to this page.</p>
+      <p>Welcome to this futuristic page.</p>
     </section>
 
     <section id="about">
       <h2>About</h2>
-      <p>これは、テスト</p>
+      <p>これは、。</p>
     </section>
 
-    <!-- ブログセクションの追加 -->
+    <!-- ブログセクション -->
     <section id="blog">
       <h2>Blog</h2>
       <div class="blog-post">
         <h3>ブログ記事のタイトル1</h3>
         <p><strong>投稿日:</strong> 2024-10-01</p>
-        <p>このブログ記事の概要がここに入ります</p>
+        <p>このブログ記事の概要がここに入ります。見せます。</p>
         <a href="#">Read more</a>
       </div>
       <div class="blog-post">
         <h3>ブログ記事のタイトル2</h3>
         <p><strong>投稿日:</strong> 2024-09-15</p>
-        <p>このブログ記事の概要がここに入りま</p>
+        <p>こちらもブログ記事です。読んでみてください。</p>
         <a href="#">Read more</a>
       </div>
-      <!-- さらに記事を追加可能 -->
     </section>
   </main>
   <footer>
-    &copy; 2024 Kdroidwin. All rights reserved.
+    &copy; 2024 kdroidwin. All rights reserved.
   </footer>
 </body>
 </html>
