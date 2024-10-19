@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Futuristic VitePress Style</title>
+  <title>Kdroidwin</title> <!-- ページタイトルをKdroidwinに -->
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css">
   <style>
     body {
@@ -15,20 +15,18 @@
     }
     header {
       background-color: #000;
-      color: #0ff; /* ネオンブルーの文字色 */
+      color: #0ff;
       padding: 1.5rem;
       text-align: center;
       font-size: 1.75rem;
       font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5); /* ヘッダーの発光効果 */
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5);
     }
     nav {
       margin-top: 1rem;
       background-color: #222;
       padding: 0.5rem 0;
-      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5); /* ナビバーの発光効果 */
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5);
     }
     nav ul {
       display: flex;
@@ -50,7 +48,7 @@
     }
     nav ul li a:hover {
       color: #fff;
-      box-shadow: 0 0 8px #0ff, 0 0 15px #0ff; /* ホバー時のネオングロー効果 */
+      box-shadow: 0 0 8px #0ff, 0 0 15px #0ff;
     }
     main {
       max-width: 900px;
@@ -58,12 +56,12 @@
       padding: 2rem;
       background-color: #222;
       border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3); /* メインコンテンツの発光効果 */
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
     }
     main h2 {
       font-size: 1.75rem;
       margin-bottom: 1rem;
-      color: #0ff; /* セクションタイトルもネオンカラー */
+      color: #0ff;
     }
     main p {
       font-size: 1rem;
@@ -77,41 +75,88 @@
       color: #666;
       border-top: 1px solid #333;
     }
-    /* ブログセクションのデザイン */
-    .blog-post {
-      margin-bottom: 2rem;
+    /* サムネイル付きブログ一覧のデザイン */
+    .blog-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
     }
-    .blog-post h3 {
+    .blog-item {
+      background-color: #333;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .blog-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .blog-item h3 {
       font-size: 1.5rem;
       color: #0ff;
-      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
     }
-    .blog-post p {
-      font-size: 0.9rem;
+    .blog-item p {
       color: #aaa;
     }
-    .blog-post a {
+    .blog-item a {
       color: #0ff;
       text-decoration: none;
       font-weight: bold;
       transition: color 0.3s ease, box-shadow 0.3s ease;
     }
-    .blog-post a:hover {
+    .blog-item a:hover {
       color: #fff;
-      box-shadow: 0 0 8px #0ff, 0 0 15px #0ff; /* リンクホバー時の発光効果 */
+      box-shadow: 0 0 8px #0ff, 0 0 15px #0ff;
+    }
+    /* コメントフォームのスタイル */
+    .comment-section {
+      margin-top: 2rem;
+      background-color: #333;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .comment-section h3 {
+      color: #0ff;
+      font-size: 1.5rem;
+    }
+    .comment-section textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border-radius: 8px;
+      background-color: #222;
+      color: #ddd;
+      border: none;
+      resize: none;
+    }
+    .comment-section button {
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #0ff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .comment-section button:hover {
+      background-color: #fff;
+      color: #000;
     }
   </style>
 </head>
 <body>
   <header>
-    kdroidwin
+    Kdroidwin <!-- droidwinに変更 -->
   </header>
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#docs">Docs</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#blog">Blog</a></li>
+      <li><a href="#blog">Blog</a></li> <!-- Blogリンク -->
     </ul>
   </nav>
   <main>
@@ -122,30 +167,38 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>これは、。</p>
+      <p>これは、近未来風のデザインテストです。</p>
     </section>
 
-    <!-- ブログセクション -->
+    <!-- ブログ一覧ページ -->
     <section id="blog">
       <h2>Blog</h2>
-      <div class="blog-post">
-        <h3>ブログ記事のタイトル1</h3>
-        <p><strong>投稿日:</strong> 2024-10-19</p>
-        <p>このブログ記事の概要がここに入ります。見せます。</p>
-        <a href="#">Read more</a>
+      <div class="blog-list">
+        <div class="blog-item">
+          <img src="https://via.placeholder.com/150" alt="ブログサムネイル1">
+          <h3>ブログ記事のタイトル1</h3>
+          <p>投稿日: 2024-10-01</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="blog-item">
+          <img src="https://via.placeholder.com/150" alt="ブログサムネイル2">
+          <h3>ブログ記事のタイトル2</h3>
+          <p>投稿日: 2024-09-15</p>
+          <a href="#">Read more</a>
+        </div>
+        <!-- 他のブログ記事も追加可能 -->
       </div>
-      <div class="blog-post">
-        <h3>ブログ記事のタイトル2</h3>
-        <p><strong>投稿日:</strong> 2024-10-19</p>
-        <p>こちらもブログ記事です。読んでみてください。</p>
-            <p>こちらもブログ記事です。読んでみてください。</p>
-            <p>こちらもブログ記事です。読んでみてください。</p>
-        <a href="#">Read more</a>
-      </div>
+    </section>
+
+    <!-- コメントセクション -->
+    <section class="comment-section">
+      <h3>コメントを残す</h3>
+      <textarea rows="5" placeholder="コメントを入力してください"></textarea>
+      <button>コメントを送信</button>
     </section>
   </main>
   <footer>
-    &copy; 2024 kdroidwin. All rights reserved.
+    &copy; 2024 Kdroidwin. All rights reserved.
   </footer>
 </body>
 </html>
