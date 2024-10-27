@@ -1,20 +1,16 @@
-// script.js
-document.addEventListener('DOMContentLoaded', function() {
-    const toggleSidebarButton = document.getElementById('toggle-sidebar');
-    const sidebar = document.getElementById('sidebar');
-    const toggleNestedLinks = document.querySelectorAll('.toggle-nested');
+// JavaScriptコード
+const toggleButton = document.getElementById('toggle-sidebar');
+const sidebar = document.getElementById('sidebar');
+const container = document.getElementById('container');
 
-    // サイドバーの表示/非表示を切り替える
-    toggleSidebarButton.addEventListener('click', function() {
-        sidebar.classList.toggle('collapsed');
-    });
+// ハンバーガーメニューをクリックしたときの処理
+toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('hidden'); // サイドバーの表示/非表示を切り替え
+});
 
-    // ネストされたリストの表示/非表示を切り替える
-    toggleNestedLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            event.preventDefault(); // デフォルトのリンク動作を防ぐ
-            const nestedList = this.nextElementSibling;
-            nestedList.style.display = nestedList.style.display === 'block' ? 'none' : 'block';
-        });
-    });
+// サイドバー以外の部分をクリックしたときの処理
+container.addEventListener('click', (event) => {
+    if (sidebar.classList.contains('hidden') === false && !sidebar.contains(event.target) && event.target !== toggleButton) {
+        sidebar.classList.add('hidden'); // サイドバーを閉じる
+    }
 });
