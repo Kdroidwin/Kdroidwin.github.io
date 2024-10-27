@@ -15,7 +15,7 @@
         .container {
             display: flex;
             height: 100vh; /* サイドバーをページの下まで伸ばす */
-            transition: margin-left 0.3s ease; /* アニメーション効果 */
+            position: relative; /* 相対位置を設定 */
         }
 
         .sidebar {
@@ -23,11 +23,16 @@
             background-color: #f4f4f4;
             padding: 20px;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            position: absolute; /* 絶対位置を設定 */
+            left: 0; /* 左に配置 */
+            top: 0; /* 上に配置 */
+            height: 100%; /* 高さを100%に設定 */
+            transform: translateX(-100%); /* 初期状態で隠す */
             transition: transform 0.3s ease; /* アニメーション効果 */
         }
 
-        .sidebar.collapsed {
-            transform: translateX(-100%); /* サイドバーを隠す */
+        .sidebar.active {
+            transform: translateX(0); /* サイドバーを表示 */
         }
 
         .sidebar h2 {
@@ -57,10 +62,6 @@
             padding: 20px;
             overflow-y: auto; /* コンテンツが多い場合にスクロール可能に */
             transition: margin-left 0.3s ease; /* アニメーション効果 */
-        }
-
-        .content.shifted {
-            margin-left: 250px; /* サイドバーの幅と同じだけ左にずらす */
         }
 
         #toggle-sidebar {
@@ -93,26 +94,4 @@
                     <li><a href="#section2">セクション2</a></li>
                     <li><a href="#section3">セクション3</a></li>
                 </ul>
-            </div>
-            <section id="section1">
-                <h2>セクション1</h2>
-                <p>ここにセクション1の内容が入ります。</p>
-            </section>
-            <section id="section2">
-                <h2>セクション2</h2>
-                <p>ここにセクション2の内容が入ります。</p>
-            </section>
-            <section id="section3">
-                <h2>セクション3</h2>
-                <p>ここにセクション3の内容が入ります。</p>
-            </section>
-        </main>
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const toggleSidebarButton = document.getElementById('toggle-sidebar');
-            const sidebar = document.getElementById('sidebar');
-            const content = document.getElementById('content');
-
-            // サイドバーの表示/非表示を切り替える
-            toggleSidebar
+            </
