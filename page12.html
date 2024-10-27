@@ -69,7 +69,12 @@
             border: none;
             font-size: 24px;
             cursor: pointer;
-            margin-bottom: 20px;
+            margin-right: 10px; /* タイトルとの間にスペースを追加 */
+        }
+
+        .header {
+            display: flex;
+            align-items: center; /* 垂直方向に中央揃え */
         }
     </style>
 </head>
@@ -85,8 +90,10 @@
             </ul>
         </aside>
         <main class="content" id="content">
-            <button id="toggle-sidebar">☰</button>
-            <h1>Kdroidwin Home</h1>
+            <div class="header">
+                <button id="toggle-sidebar">☰</button>
+                <h1>Kdroidwin Home</h1>
+            </div>
             <div class="toc">
                 <h2>目次</h2>
                 <ul>
@@ -94,4 +101,16 @@
                     <li><a href="#section2">セクション2</a></li>
                     <li><a href="#section3">セクション3</a></li>
                 </ul>
-            </
+            </div>
+        </main>
+    </div>
+    <script>
+        const toggleButton = document.getElementById('toggle-sidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
