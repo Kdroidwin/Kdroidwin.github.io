@@ -6,12 +6,14 @@ body {
 
 .container {
     display: flex;
+    height: 100vh; /* サイドバーをページの下まで伸ばす */
 }
 
 .sidebar {
     width: 250px;
     background-color: #f4f4f4;
     padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar h2 {
@@ -36,33 +38,13 @@ body {
     text-decoration: underline;
 }
 
+.nested {
+    display: none; /* 初期状態では非表示 */
+    padding-left: 20px; /* ネストされたリストのインデント */
+}
+
 .content {
     flex: 1;
     padding: 20px;
-}
-
-.toc {
-    margin-bottom: 20px;
-}
-
-.toc h2 {
-    font-size: 1.5em;
-}
-
-.toc ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.toc ul li {
-    margin: 5px 0;
-}
-
-.toc a {
-    text-decoration: none;
-    color: #007BFF;
-}
-
-.toc a:hover {
-    text-decoration: underline;
+    overflow-y: auto; /* コンテンツが多い場合にスクロール可能に */
 }
