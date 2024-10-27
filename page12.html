@@ -10,6 +10,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #121212; /* ダークモードの背景色 */
+            color: #ffffff; /* ダークモードの文字色 */
         }
 
         .container {
@@ -20,9 +22,9 @@
 
         .sidebar {
             width: 250px;
-            background-color: #f4f4f4;
+            background-color: #1e1e1e; /* ダークモードのサイドバー色 */
             padding: 20px;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
             position: absolute; /* 絶対位置を設定 */
             left: 0; /* 左に配置 */
             top: 0; /* 上に配置 */
@@ -50,7 +52,7 @@
 
         .sidebar a {
             text-decoration: none;
-            color: #333;
+            color: #ffffff; /* ダークモードのリンク色 */
         }
 
         .sidebar a:hover {
@@ -70,11 +72,22 @@
             font-size: 24px;
             cursor: pointer;
             margin-right: 10px; /* タイトルとの間にスペースを追加 */
+            color: #ffffff; /* ダークモードのボタン色 */
         }
 
         .header {
             display: flex;
             align-items: center; /* 垂直方向に中央揃え */
+        }
+
+        /* スマホ版のスタイル */
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%); /* スマホ版では初期状態で隠す */
+            }
+            .sidebar.active {
+                transform: translateX(0); /* スマホ版でサイドバーを表示 */
+            }
         }
     </style>
 </head>
@@ -98,19 +111,4 @@
                 <h2>目次</h2>
                 <ul>
                     <li><a href="#section1">セクション1</a></li>
-                    <li><a href="#section2">セクション2</a></li>
-                    <li><a href="#section3">セクション3</a></li>
-                </ul>
-            </div>
-        </main>
-    </div>
-    <script>
-        const toggleButton = document.getElementById('toggle-sidebar');
-        const sidebar = document.getElementById('sidebar');
-
-        toggleButton.addEventListener('click', () => {
-            sidebar.classList.toggle('active');
-        });
-    </script>
-</body>
-</html>
+                    <li><a href="#section2">セクション2</a></li
