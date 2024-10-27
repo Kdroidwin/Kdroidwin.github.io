@@ -86,4 +86,28 @@
                 transform: translateX(-100%); /* スマホ版では初期状態で隠す */
             }
             .sidebar.active {
-                transform: translateX(0); /* スマホ版でサイドバー
+                transform: translateX(0); /* スマホ版でサイドバーを表示 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <aside class="sidebar hidden" id="sidebar">
+            <h2>contact</h2>
+            <ul>
+                <li><a href="https://twitter.com/Kdroidwin1" target="_blank">Twitter</a></li>
+                <li><a href="https://kdroidwin.hatenablog.com" target="_blank">Blog</a></li>
+                <li><a href="https://github.com/kdroidwin" target="_blank">GitHub</a></li>
+                <li><a href="mailto:kdroidwin@gmail.com">mail</a></li>
+            </ul>
+        </aside>
+        <main class="content" id="content">
+            <div class="header">
+                <button id="toggle-sidebar">☰</button>
+                <h1>Kdroidwin Home</h1>
+            </div>
+            <div class="toc">
+                <h2>目次</h2>
+                <ul>
+                    <li><a href="#section1">セクション1</a></
