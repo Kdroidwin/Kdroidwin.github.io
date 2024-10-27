@@ -15,6 +15,7 @@
         .container {
             display: flex;
             height: 100vh; /* サイドバーをページの下まで伸ばす */
+            transition: margin-left 0.3s ease; /* アニメーション効果 */
         }
 
         .sidebar {
@@ -55,6 +56,11 @@
             flex: 1;
             padding: 20px;
             overflow-y: auto; /* コンテンツが多い場合にスクロール可能に */
+            transition: margin-left 0.3s ease; /* アニメーション効果 */
+        }
+
+        .content.shifted {
+            margin-left: 250px; /* サイドバーの幅と同じだけ左にずらす */
         }
 
         #toggle-sidebar {
@@ -67,7 +73,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <aside class="sidebar" id="sidebar">
             <h2>contact</h2>
             <ul>
@@ -77,7 +83,7 @@
                 <li><a href="mailto:kdroidwin@gmail.com">mail</a></li>
             </ul>
         </aside>
-        <main class="content">
+        <main class="content" id="content">
             <button id="toggle-sidebar">☰</button>
             <h1>Kdroidwin Home</h1>
             <div class="toc">
@@ -103,16 +109,10 @@
         </main>
     </div>
     <script>
-        // script.js
         document.addEventListener('DOMContentLoaded', function() {
             const toggleSidebarButton = document.getElementById('toggle-sidebar');
             const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
 
             // サイドバーの表示/非表示を切り替える
-            toggleSidebarButton.addEventListener('click', function() {
-                sidebar.classList.toggle('collapsed');
-            });
-        });
-    </script>
-</body>
-</html>
+            toggleSidebar
