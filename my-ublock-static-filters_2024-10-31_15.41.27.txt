@@ -1,0 +1,702 @@
+! 2023-09-03 https://pokemon-matome.net
+pokemon-matome.net##div:nth-of-type(8)
+pokemon-matome.net###article_main > div:nth-of-type(2)
+pokemon-matome.net###blogroll-82595 > .blogroll-list-wrap > li.blogroll-list > .blogroll-link
+pokemon-matome.net###blogroll-82595 > .blogroll-ad-default
+pokemon-matome.net##li.blogroll-list:nth-of-type(7)
+pokemon-matome.net##li.blogroll-list:nth-of-type(12)
+pokemon-matome.net##li.blogroll-list:nth-of-type(11)
+pokemon-matome.net##li.blogroll-list:nth-of-type(17)
+pokemon-matome.net##li.blogroll-list:nth-of-type(18)
+
+! 2023-09-05 http://jin115.com　俺的ゲーム速報
+jin115.com##.twitter-follow
+jin115.com##.box-border.box-margin.box-padding.box.plugin-box.plugin-twitter_follow_button
+
+! 2023-09-20 https://bsky.app Blue sky
+bsky.app##path:nth-of-type(3)
+bsky.app##div.r-19urhcx.r-iphfwy.r-13awgt0.r-1otgn73.r-1loqt21.css-175oi2r:nth-of-type(3)
+
+! 2023-09-20 https://blog.hatena.ne.jp
+blog.hatena.ne.jp##[href^="/-/curation/promotion"]
+blog.hatena.ne.jp##.editform-announcement > summary
+
+! 2023-09-25 https://apkmody.io
+apkmody.io##div.main-entry-content.entry-content.entry-block:nth-of-type(2) > .margin-top-15.wp-block-buttons > div.response-download-btn.wp-block-button__width-50.has-custom-width.wp-block-button:nth-of-type(2) > .clickable.has-vivid-cyan-blue-background-color.wp-block-button__link
+apkmody.io##.donate-content
+
+! 2023-09-25 https://download-new.apkmody.fun
+download-new.apkmody.fun###donate-popup > div > p
+download-new.apkmody.fun###download-donate
+
+! 2023-09-26 https://www.google.com
+www.google.com##div.card-section:nth-of-type(2)
+
+! 2023-10-02 https://togetter.com
+togetter.com###frame_tg_sp_overlay
+togetter.com##article > .ad_rectangle > div
+togetter.com###ad_list_bottom > div
+togetter.com##div.ad_rectangle > div
+togetter.com##.feedback_box
+
+! 2023-10-03 https://www.naporitansushi.com
+www.naporitansushi.com##.act
+www.naporitansushi.com##.acl
+www.naporitansushi.com##.acc
+
+! 2023-10-04 https://kyoko-np.net
+kyoko-np.net##.ad-header
+
+! 2023-10-07 https://app.mediafire.com
+||www.mediafire.com/widgets/sidebar_promo.php$subdocument
+||www.mediafire.com/widgets/sidebar_promo.php$subdocument
+||www.mediafire.com/widgets/sidebar_promo.php$subdocument
+
+! Yahoo News
+yahoo.co.jp##a:has-text(/ジャニーズ/)
+yahoo.co.jp##a:has-text(/withnews/)
+yahoo.co.jp##a:has-text(/アスキー/)
+
+
+newmatosoku.com##li.waku-zentai:nth-of-type(6)
+newmatosoku.com##a:has-text(/Amazon半額ストア！/)
+newmatosoku.com##a:has-text(/Amazonクーポン！/)
+newmatosoku.com##a:has-text(/PR/)
+newmatosoku.com##li.waku-zentai:nth-of-type(18)
+
+
+!Amazon　広告ブロック
+www.amazon.co.jp## div[data-component-type="sp-sponsored-result"]
+www.amazon.co.jp##div.s-widget-spacing-small.sg-col-12-of-12.sg-col.s-widget.s-result-item:nth-of-type(9)
+www.amazon.co.jp##div.s-widget-spacing-small.sg-col-12-of-12.sg-col.s-widget.s-result-item:nth-of-type(24)
+www.amazon.co.jp##div.s-widget-spacing-small.sg-col-12-of-12.sg-col.s-widget.s-result-item > .sg-col-inner
+www.amazon.co.jp##div.s-widget-spacing-small.sg-col-12-of-12.sg-col.s-widget.s-result-item:nth-of-type(39)
+www.amazon.co.jp##.s-padding-right-small.s-padding-left-small.s-messaging-widget-results-header.a-spacing-none.a-section
+www.amazon.co.jp##div.s-widget-spacing-small.sg-col-12-of-12.sg-col.s-widget.s-result-item
+
+
+! 2023-10-10 http://www.gadget2ch.com
+www.gadget2ch.com##div.posts-inner:nth-of-type(4)
+
+! 2023-10-11 https://www.twidouga.net
+www.twidouga.net##ul.share-buttons:nth-of-type(1)
+www.twidouga.net##ul.share-buttons:nth-of-type(2)
+
+! 2023-10-12 https://download.apkmody.fun
+download.apkmody.fun##.donate-content > .donate-button
+download.apkmody.fun##.has-luminous-vivid-orange-color
+download.apkmody.fun##.justify-center.align-center.flex-column.flex
+download.apkmody.fun##a.clickable:nth-of-type(2) > .download-item > .download-item-name > .has-small-font-size.has-cyan-bluish-gray-color
+download.apkmody.fun##a.clickable:nth-of-type(2) > .download-item > .download-item-name
+download.apkmody.fun##div.main-entry-content.entry-content.entry-block:nth-of-type(2) > .margin-top-15.wp-block-buttons > div.response-download-btn.wp-block-button__width-50.has-custom-width.wp-block-button:nth-of-type(2) > .clickable.has-vivid-cyan-blue-background-color.wp-block-button__link
+
+! 2023-10-14 https://note.com
+note.com##.o-shareBooster__item--type_line.o-shareBooster__item > .m-socialShareButton__item--center.o-shareBooster__link
+
+! 2023-10-16 https://thenovbharattimes.com
+||mynewsmedia.co/wp-content/uploads/2023/01/AdBlock-Detected.png$image
+
+twitter.com##div[aria-label="タイムライン: 会話"] > div > div[style^="transform"] div[data-testid="card.wrapper"] div[dir]:first-child > span > span:has-text(/^bnc\.lt$/):upward(div[style^="transform"])
+
+! 2023-10-16 https://www.ikachi.org
+||www.ikachi.org/ad$subdocument
+
+! 2023-10-16 https://9ketsuki.info
+9ketsuki.info##p:nth-of-type(22)
+9ketsuki.info##.infoHead__text
+
+! 2023-10-17 http://blog.esuteru.com　はちま起稿
+blog.esuteru.com##.content > nav.section-box > .box-margin.article-button-simple
+blog.esuteru.com##.content > aside.section-box > .box-border.box-margin.box.plugin-box.plugin-blogroll > .box-border.title-color.plugin-title
+blog.esuteru.com##.container-inner > nav.section-box > .box-margin.article-button-simple
+blog.esuteru.com##.content > aside.section-box > .free-area-none-border.plugin-box.plugin-free_area
+blog.esuteru.com##.content > aside.section-box > .box-border.box-margin.box.plugin-box.plugin-popular_articles-new > .box-border.title-color.plugin-title
+
+! 2023-10-19 http://blog.livedoor.jp　ランキング
+blog.livedoor.jp##.blog_ranking_box
+
+! 2023-10-19 https://pokemon-matome.net　ランキング
+pokemon-matome.net##div:nth-of-type(4)
+pokemon-matome.net##body > div:nth-of-type(2)
+pokemon-matome.net##div.sidetitlebody:nth-of-type(1)
+pokemon-matome.net##div.sidetitlebody:nth-of-type(3)
+pokemon-matome.net##.sidetitlebody2
+pokemon-matome.net##div.title_header:nth-of-type(7)
+pokemon-matome.net##div.title_header:nth-of-type(3)
+
+! 2023-10-19 https://itainews.com　痛いニュース
+itainews.com##.content > nav.section-box > .box-border.box-margin.box-padding.box.plugin-box.article-button
+itainews.com##.blog_ranking_box
+itainews.com##.blog-footer-inner
+itainews.com##.box-border.box-margin.box-padding.box.plugin-box.plugin-message_board
+
+! 2023-10-19 http://jin115.com　ランキング
+jin115.com##.extlink.outside-border.blog-footer
+jin115.com##.box-border.box-margin.box-padding.box.plugin-box.plugin-free_area
+
+!Twitterスパム
+twitter.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-1dbjc4n:has-text("bnc.lt")
+twitter.com##div[aria-label="タイムライン: 会話"] > div > div[style^="transform"] div[data-testid="card.wrapper"] div[dir]:first-child > span > span:has-text(/^bnc\.lt$/):upward(div[style^="transform"])
+
+! 2023-10-21 https://www.google.com
+www.google.com##.page-number
+
+! 2023-10-22 https://itainews.com
+itainews.com##.extlink.outside-border.blog-footer
+itainews.com##.box-border.box-margin.box.plugin-box.plugin-news > .box-border.title-color
+
+! 2023-10-22 https://himebon.blog
+himebon.blog##.eye-catch-wrap
+
+! 2023-10-22 https://pokemon-matome.net
+pokemon-matome.net##.rssinline_bbs
+
+! 2023-10-23 https://pokemon-matome.net
+pokemon-matome.net##.rssinline1
+pokemon-matome.net###wrap_popup > div
+
+! 2023-10-23 http://www.gadget2ch.com
+www.gadget2ch.com###main > div.article-text-rss-box > .article-text-rss
+www.gadget2ch.com##div.article-text-rss-box:nth-of-type(2)
+www.gadget2ch.com##div.article-text-rss-box:nth-of-type(3)
+
+! 2023-10-24 https://www.yinmh.com
+www.yinmh.com##div.b300:nth-of-type(2)
+
+! 20
+
+! 2023-10-26 https://itest.5ch.net
+itest.5ch.net###res_1 > p
+
+itainews.com##.post:has-text(/不倫/)
+
+itainews.com##.fc-item__container:has-text(不倫)
+
+! 2023-10-30 http://ideal2ch.livedoor.biz 理想
+ideal2ch.livedoor.biz##.box-border.box-margin.box-padding.box.plugin-box.plugin-twitter_follow_button
+ideal2ch.livedoor.biz##aside#lite_link.box-border.box-margin.box.plugin-box.section-box > h2
+ideal2ch.livedoor.biz##aside#lite_link.box-border.box-margin.box.plugin-box.section-box:nth-of-type(4)
+ideal2ch.livedoor.biz##.footer-box.footer-blog-banner
+ideal2ch.livedoor.biz##.container-inner > nav.section-box > .box-margin.article-button-simple
+
+
+! 2023-10-31 https://www.google.com
+www.google.com##.rL35Mb
+
+! 2023-10-31 https://www.serebii.net
+www.serebii.net###content > .center
+
+! 2023-11-02 https://javhd.com
+||c4.cdnjhd.com/tour-assets/images/default-dark/mobile/banner_1@2x.jpg$image
+||c4.cdnjhd.com/tour-assets/images/default-dark/mobile/banner_1@2x.jpg$image
+
+! 2023-11-04 https://feedly.com
+feedly.com###article-clap
+feedly.com##.ldapp-link
+
+! 2023-11-04 https://pcgamer-12.com
+pcgamer-12.com##.cf.entry-content > div > div > p
+pcgamer-12.com##.lazyloaded.custom-box3
+||affiliate-kousotu.com/wp-content/uploads/2020/07/yntfnytrnnnnnnnnnnnnnnnnnnnnn.jpg$image
+pcgamer-12.com##p:nth-of-type(68)
+||affiliate-kousotu.com/wp-content/uploads/2020/07/yntfnytrnnnnnnnnnnnnnnnnnnnnn.jpg$image
+pcgamer-12.com##.cf.entry-content > div > div > .lazyloaded.type_normal.is-style-glay_box.intitle.cbox
+pcgamer-12.com##p:nth-of-type(2)
+pcgamer-12.com##div:nth-of-type(19)
+pcgamer-12.com##p:nth-of-type(135)
+pcgamer-12.com##p:nth-of-type(134)
+pcgamer-12.com##p:nth-of-type(133)
+pcgamer-12.com##h3:nth-of-type(7)
+pcgamer-12.com##div:nth-of-type(25)
+
+! 2023-11-06 https://nyaa.land
+||nyaa.land/static/PIA.png?id=d5305028e7f701ef6dac4010ba0710ee.png$image
+
+! 2023-11-06 http://yaraon-blog.com
+||blog-imgs-169.fc2.com/y/a/r/yarakan/00_m_20230930210309ec8.png$image
+yaraon-blog.com##.widget_text.block.widget.corner
+yaraon-blog.com##.widget_recent_entries.block.widget.corner
+
+! 2023-11-07 https://gekiyasu-gekiyasu.doorblog.jp
+gekiyasu-gekiyasu.doorblog.jp##.box-border.box-margin.box-padding.box.plugin-box.plugin-free_area
+
+! 2023-11-07 https://www.google.com　上のツールバー　非表示
+www.google.com##[href^="https://maps.google.com/maps"]
+www.google.com##div.hdtb-mitem:nth-of-type(7) > [href^="/search"]
+www.google.com##[href^="https://www.google.com/travel/flights"]
+www.google.com##[href^="https://www.google.com/finance"]
+
+! 2023-11-07 https://www.onlyhgames.com
+www.onlyhgames.com##.ywyemizvlvzavplakgufffynkbhplsuuvnwunhpvakbuhgxczqylbrsabhfxtwvoczhjsgomgctsmuctsmu.dgpqzndunjhlatnttgvlzjmmxbmmnortefhnhjtaytqyhpszzcmxndctsmu
+www.onlyhgames.com##.dwftylweuzbqmtqjadhpymvcbvcwzxzhsgjjaxiaunnznrjvfnbzctsmu.temrgyounxwuivtrivmfsndrofozrjhkywfwclidxlmljyvtutctsmu
+
+! 2023-11-11 http://yaraon-blog.com
+yaraon-blog.com###sidebar_top_area
+yaraon-blog.com###widgetarea_sp_single_bfore_title
+
+! 2023-11-11 https://coomer.su
+coomer.su##.root--ujvuu > div
+
+! 2023-11-12 https://nyaa.land
+||nyaa.land/static/PIA.png?id=9e64829e103320e5530c4cab53b29587.png$image
+||nyaa.land/static/PIA.png?id=e7f691cb83bf538dd7fbcd606a491d8f.png$image
+||nyaa.land/static/PIA.png?$image
+
+! 2023-11-12 https://vip.5chmap.com
+vip.5chmap.com##a#article-0.list-group-item:nth-of-type(1)
+vip.5chmap.com##a#article-0.list-group-item:nth-of-type(10)
+
+! 2023-11-13 https://detail.chiebukuro.yahoo.co.jp
+||s.yimg.jp/images/ks/clap/image/banner/aianswer/banner_ai_detail_test_sp.png$image
+||s.yimg.jp/images/ks/clap/image$image
+
+! 2023-11-13 https://www.google.com
+www.google.com##div.MjjYud:nth-of-type(3)
+
+
+
+! 2023-11-14 https://blog.hatena.ne.jp
+blog.hatena.ne.jp##.track-click-by-gtm.promotion-onamaeDomain-touchHeader.admin-header-upgrade-pro
+
+! 2023-11-14 http://www.maruhorror.com
+www.maruhorror.com##div.t_h:nth-of-type(1)
+
+! 2023-11-19 https://www.google.com
+www.google.com###arc-srp_120 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section
+www.google.com###arc-srp_110 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > div.a1DBFd > i
+www.google.com###arc-srp_130 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > div.a1DBFd > i
+www.google.com###botstuff > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > div.a1DBFd > i
+
+! 2023-11-20 https://itest.5ch.net
+itest.5ch.net##.large.card_content > p
+
+! 2023-11-20 https://mainichi.jp
+mainichi.jp##.articletool-list
+
+! 2023-11-20 https://www.nytimes.com
+www.nytimes.com##.css-1hs03y9
+www.nytimes.com##.css-19q4c8e
+www.nytimes.com###gateway-content
+
+! 2023-11-23 https://niji-gazo.com
+niji-gazo.com###on-demand-comics
+
+! 2023-11-24 https://toyokeizai.net
+toyokeizai.net##.pi_content
+toyokeizai.net##.pi_modalbg
+
+! 2023-11-24 https://transit.yahoo.co.jp
+transit.yahoo.co.jp##li > [href^="https://jp.stanby.com/"]
+transit.yahoo.co.jp##div.StanbySlink_linkList__12gr-:nth-of-type(2)
+transit.yahoo.co.jp##.labelSmall
+transit.yahoo.co.jp##.StanbySlink_mainSp__2UNnR
+
+! 2023-11-24 https://forest.watch.impress.co.jp
+forest.watch.impress.co.jp##.image > p > [href="https://forest.watch.impress.co.jp/docs/news/1549532.html"]
+forest.watch.impress.co.jp##.clickable.index-1.windows.news.item > .body > .image
+forest.watch.impress.co.jp##.clickable.index-1.windows.news.item > .body > .text
+
+
+
+! 2023-11-26 https://recherche-ebook.fr
+recherche-ebook.fr##div:nth-of-type(8) > div > div:nth-of-type(1)
+recherche-ebook.fr##div:nth-of-type(8)
+
+! 2023-11-27 https://detail.chiebukuro.yahoo.co.jp
+detail.chiebukuro.yahoo.co.jp##.ClapLv1LinkMessage_Chie-LinkMessage__3xdTs
+detail.chiebukuro.yahoo.co.jp##.Detail_chie-Pages__PollLink__1FiKr.target_modules
+
+! 2023-11-27 https://www.apkmirror.com
+www.apkmirror.com##.f-nowrap.d-flex.p-relative.f-100 > .f-grow
+www.apkmirror.com##.f-nowrap.d-flex.p-relative.f-100
+
+! 2023-11-29 https://www.google.com
+www.google.com###EkhoZa2YE4-m2roPp8-aqAY__10 > .T3FoJb > .nPDzT.LatpMc
+www.google.com###akloZYfOAr3g2roP46-gwAI__10 > .T3FoJb > .nPDzT.LatpMc
+www.google.com###dEloZaXNDL6u2roPgpGnuAY__10 > .T3FoJb > .nPDzT.LatpMc
+www.google.com###dEloZaXNDL6u2roPgpGnuAY__11 > .T3FoJb > .nPDzT.LatpMc
+
+! 2023-11-30 https://apkmody.io
+apkmody.io##.fade-out-animated
+apkmody.io##.fixed-donate-us
+
+! 2023-12-02 https://toyokeizai.net
+toyokeizai.net##.pi_modal
+
+! 2023-12-02 https://yoshikazu-komatsu.com
+yoshikazu-komatsu.com##strong
+
+! 2023-12-03 https://nyaa.theproxy.ws
+nyaa.theproxy.ws###cookieConsentUR99472
+
+! 2023-12-03 https://www3.nhk.or.jp
+www3.nhk.or.jp##.module_aside--banner_top_vertical.module_aside > .module_aside--content
+
+! 2023-12-03 https://mangaraw.do
+mangaraw.do##.tcenter.wleft.footercopyright
+
+! 2023-12-06 https://news.yahoo.co.jp
+news.yahoo.co.jp##.riff-border-transparent.riff-border-l.riff-border-b.riff-border-r.riff-border-t.riff-rounded-br-4.riff-rounded-bl-4.riff-rounded-tr-4.riff-rounded-tl-4.riff-pl-3.riff-pb-3.riff-pr-3.riff-pt-3.riff-flex.riff-Message__root--information.cUhzfS.Information__StyledMessage-hbGNBk
+||s.yimg.jp/images/news-web/sp/images/line_am.png$image
+news.yahoo.co.jp##.MtoCTool
+news.yahoo.co.jp##div.riff-ml-0.riff-flex-row.riff-flex.riff-Stack__item:nth-of-type(1)
+||s.yimg.jp/images/news-web/sp/images/line_am.png$image
+
+! 2023-12-07 https://djxmaza.in
+djxmaza.in##div.mb-4.aboutFile.col-md-12.col-lg-6:nth-of-type(7)
+
+! 2023-12-07 https://www.google.com
+www.google.com##.qVnATe.RwbsGf.u7XA4b
+
+! 2023-12-09 https://www.reddit.com
+www.reddit.com##body > div
+
+google.com,
+
+www.google.com,www.google.co.jp##.fxgdke:has-text(pinterest):upward(2)
+
+google.com,google.co.jp##:matches-path(/^/search\?/) span:has-text(Google 宛に送られた法的要請に応じ、):upward(div[data-hveid][data-ved])
+
+
+2023-11-25 https://www.google.com
+
+www.google.com##div.MjjYud > div > div > .pkphOe.EtOod.xpd.vt6azd.Ww4FFb > .jqWpsc > .BmP5tf.cz3goc
+www.google.com##.tRkSqb.vt6azd.Ww4FFb > .v5yQqb.T61Aje > .BmP5tf.cz3goc
+www.google.com###arc-srp_150 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > div.a1DBFd > i
+www.google.com###arc-srp_150 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > .yG4QQe > i
+www.google.com###arc-srp_140 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > .yG4QQe > i
+www.google.com###arc-srp_140 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > .a1DBFd > i
+www.google.com###arc-srp_160 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > .yG4QQe
+www.google.com###arc-srp_160 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > .a1DBFd > i
+www.google.com###arc-srp_170 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section > .yG4QQe > i
+www.google.com###arc-srp_170 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section
+www.google.com###arc-srp_180 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section
+www.google.com###arc-srp_190 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section
+www.google.com###arc-srp_110 > div > .Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section
+www.google.com##.Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac > .card-section
+
+! 2023-12-10 https://blog.hatena.ne.jp
+blog.hatena.ne.jp##li.admin-menu-odai:nth-of-type(10) > .sidebar-item-link
+
+! 2023-12-11 https://twitter.com 検索画像　おすすめ動画
+twitter.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r
+twitter.com##.r-1ny4l3l.r-kmv1fd.r-1j3t67a.r-1wtj0ep.css-175oi2r
+twitter.com##div > div:nth-of-type(6)
+twitter.com##div:nth-of-type(10)
+twitter.com##.r-bnwqim.r-1adg3ll.css-175oi2r > .css-175oi2r > div.css-175oi2r:nth-of-type(2) > .css-175oi2r > .css-175oi2r > div > div:nth-of-type(3)
+twitter.com##div.r-16y2uox.r-cpa5s6.r-6b64d0.css-175oi2r:nth-of-type(4) > .r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1yt7n81.r-ry3cjt.r-s8bhmr.r-1777fci.r-1iud8zs.r-16y2uox.r-eqz5dr.r-6koalj.r-1awozwy.css-175oi2r
+
+! 2023-12-12 https://www.kyodemo.net
+www.kyodemo.net###rlist > div:nth-of-type(2)
+
+
+###gdpr-banner
+
+||jp.reuters.com^$script
+gigazine.net##section:has(span[class="catab"]:has-text("ピックアップ"))
+
+gigazine.net##section:has(span[class="catab"]:has-text("試食"))
+gigazine.net##section:has(span[class="catab"]:has-text("アニメ"))
+gigazine.net##section:has(span[class="catab"]:has-text("アート"))
+gigazine.net##section:has(span[class="catab"]:has-text("お知らせ"))
+gigazine.net##section:has(span[class="catab"]:has-text("広告"))
+
+gigazine.net##section:has(span[class="catab"]:has-text("乗り物"))
+gigazine.net##section:has(span[class="catab"]:has-text("ピックアップ"))
+gigazine.net##section:has(span[class="catab"]:has-text("食"))
+gigazine.net##section:has(span[class="catab"]:has-text("レビュー"))
+gigazine.net##section:has(span[class="catab"]:has-text("試食"))
+gigazine.net##section:has(span[class="catab"]:has-text("食べ物"))
+gigazine.net##section:has(span[class="catab"]:has-text("取材"))
+gigazine.net##section:has(span[class="catab"]:has-text("アニメ"))
+gigazine.net##section:has(span[class="catab"]:has-text("マンガ"))
+gigazine.net##section:has(span[class="catab"]:has-text("インタビュー"))
+gigazine.net##section:has(span[class="catab"]:has-text("映画"))
+gigazine.net##section:has(span[class="catab"]:has-text("お知らせ"))
+gigazine.net##section:has(span[class="catab"]:has-text("動画"))
+gigazine.net##section:has(span[class="catab"]:has-text("メンバー限定"))
+
+gigazine.net##section:has(span[class="catab"]:has-text("ヘッドライン"))
+gigazine.net##b:has-text(/心理的/)
+
+! 2023-12-13 https://qiita.com
+qiita.com##.style-lvmz4i
+
+! 2023-12-13 http://ideal2ch.livedoor.biz
+||parts.blog.livedoor.jp/img/cms_lite/common/icon/icon_forward.png$image
+
+www.serebii.net##.subcat:has-text(/Sleep/)
+||www.serebii.net/pokemonsleep$image
+www.serebii.net##.subcat:has-text(/Pokémon Café ReMix/)
+||www.serebii.net/cafemix$image
+
+www.serebii.net##.subcat:has-text(/Pokémon Masters EX/)
+
+www.serebii.net##.subcat:has-text(/Pokémon UNITE/)
+
+||www.serebii.net/pokemonmasters/$image
+
+||www.serebii.net/pokemonunite/$image
+
+! 2023-12-28 https://www.serebii.net
+www.serebii.net##main > div:nth-of-type(2) > div
+www.serebii.net##main > div:nth-of-type(4) > div
+www.serebii.net##div:nth-of-type(8) > div
+www.serebii.net##div:nth-of-type(12) > div
+||www.serebii.net/anime/pokemon/251.gif$image
+
+! 2023-12-28 https://www.anime-sharing.com
+www.anime-sharing.com##.samUnitWrapper.block-row--separated.block-row
+
+||mercari-shops-static.com^
+
+! 2023-12-28 https://togetter.com
+togetter.com##.sosenkyo_btn_box
+togetter.com##div.info_status_box:nth-of-type(3) > .info_status
+
+
+! 2023-12-28 https://gigazine.net
+gigazine.net##section:nth-of-type(n):has-text("コロナ")
+
+blog.livedoor.jp###blogPortalInfo > li:has-text(/大阪/)
+
+thecubexguide.com#@##featuredimage
+
+*$image,domain=thecubexguide.com,3p,redirect=1x1.gif
+
+thecubexguide.com###featuredimage:style(pointer-events: none !important)
+
+!詐欺　AdGuardかわいいフィルター
+
+||zeromobile.co.jp^
+||otomo.club^
+
+!収益化関係 ゴミソース
+||abc-model.com^
+||freeworkroom.com^
+||umibouzusecod.jp^
+||cham-group.com
+||pamxy.co.jp^
+||makusan.jp^
+||tsuzukiblog.org^
+||fukugyo-free.com^
+||yuka001.com^
+||lotsful.jp^
+||boonboonblog.com^
+||yujiblog.org^
+||nihongo1000.com^
+
+!トップの自動再生Prime Video(スマホ）
+amazon.co.jp##div[class="a-cardui atv-draper-video-card"]
+
+
+!hide reCAPTCHA badge
+##div[class*="grecaptcha-badge"]
+
+!Wikipediaのデカすぎる寄付依頼
+ja.wikipedia.org##.vector-sitenotice-container
+ja.wikipedia.org###siteNotice
+
+||sovrn.com^$third-party
+
+! 2023-12-29 https://www.serebii.net
+www.serebii.net##div:nth-of-type(6) > div
+||www.serebii.net/cafemix/$image
+||www.serebii.net/pokemonmasters$image
+||www.serebii.net/anime/pokemon/251.gif$image
+
+! 2023-12-29 http://blog.livedoor.jp
+blog.livedoor.jp##.box-border.ldapp-link-none.ldapp-link
+blog.livedoor.jp##.ldapp-link
+blog.livedoor.jp##.box-border.box-margin.box-padding.box.plugin-box.plugin-follow_buttons
+
+! 2023-12-29 https://detail.chiebukuro.yahoo.co.jp
+detail.chiebukuro.yahoo.co.jp##.ClapLv2CarouselRanking_Chie-CarouselRanking___Fl7h
+
+! 2024-01-08 https://katfile.com　クソバナー
+katfile.com##h1
+
+! 01-14 web-research.kawai-juku.ac.jp　点数入力時の広告
+web-research.kawai-juku.ac.jp##.splide__track--draggable.splide__track--ltr.splide__track--loop.splide__track
+web-research.kawai-juku.ac.jp##.arrow--right.arrow.splide__arrow--next.splide__arrow
+web-research.kawai-juku.ac.jp##.arrow--left.arrow.splide__arrow--prev.splide__arrow
+
+! 2024-01-14 https://www.toshin.com　下記のバナー
+||www.toshin.com/kyotsutest/img/hantei-sys/640_100.jpg$image
+
+! 2024-03-07 https://gigazine.net
+gigazine.net###donation_wrapper
+
+! 2024-03-08 https://kdroidwin.hatenablog.com
+||b.hatena.ne.jp/entry/image/https://kdroidwin.hatenablog.com/entry/$image
+||b.hatena.ne.jp/entry/image/https://kdroidwin.hatenablog.com/entry/2024$image
+kdroidwin.hatenablog.com##.social-buttons
+
+! 2024-03-13 https://blog.hatena.ne.jp
+blog.hatena.ne.jp###android-app-banner-body
+
+! 2024-03-13 https://hianime.to
+hianime.to##.share-buttons-block
+
+! 2024-03-13 https://aniwave.to
+||aniwave.to/assets/_bnx/mangafire_7xx.gif$image
+
+! 2024-03-13 https://hianime.to
+hianime.to##.ina-flex
+
+! 2024-03-15 https://apkpure.com
+apkpure.com##.ad-title.js-ad-slot > .ad-box
+apkpure.com##.ad-box > div
+
+
+
+! 2024-03-27 https://osomatsusan.hatenablog.com
+osomatsusan.hatenablog.com##.gsc-control-cse-ja.gsc-control-cse
+osomatsusan.hatenablog.com###top-editarea > .section > .header-info > [href="https://osomatsusan.hatenablog.com"]
+
+! 2024-04-08 https://copilot.microsoft.com
+copilot.microsoft.com##.ttc_visible.dark
+copilot.microsoft.com##.b_antiLeftBleedOC
+
+! 2024-04-15 https://yamasari.blog
+yamasari.blog##.pr-label-l.pr-label
+
+! 2024-04-18 https://atombengo.com
+atombengo.com##.type-org.floatbn.bottom-menu
+atombengo.com###post-22056 > .org.mob.contact_3tenset > .pnk_bg > .white_bg
+atombengo.com###post-22056 > .org.mob.contact_3tenset > .pnk_bg > .soudanzero.pnk_bg_txt_wrapper > .pnk_bg_txt
+atombengo.com###post-22056 > .org.mob.contact_3tenset > .red_bg
+atombengo.com###post-22056 > .org.mob.contact_3tenset > .pnk_bg > .soudanzero.pnk_bg_txt_wrapper
+
+! 2024-04-22 https://tech-teacher.jp
+||sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_270,h_270/https://tech-teacher.jp/kids-blog/wp-content/uploads/2024/02/4897a463a41fa4609e9ef265bff997c1.jpg$image
+tech-teacher.jp##.popmake-close.pum-close
+tech-teacher.jp##.custom-position.fixed.active.pum-position-fixed.theme-10708.popmake.pum-container
+
+! 2024-04-30 https://detail.chiebukuro.yahoo.co.jp
+detail.chiebukuro.yahoo.co.jp##.NavigationHeader_navigationHeader__Banner__132Fb.target_modules
+
+! 2024-05-01 https://jp.pornhub.com
+jp.pornhub.com###js-likedVideosTooltip > .gtm-event-likedvideos
+
+! 2024-05-01 https://twivideo.net
+||pbs.twimg.com/ext_tw_video_thumb/1759926702191611904/pu/img/ut93nqqP7P28lqD8.jpg$image
+
+! 2024-05-06 https://www.photo-capsule-puls.net
+||www.photo-capsule-puls.net/img/nekobum_bunner.png$image
+||www.photo-capsule-puls.net/img/bg_capsuleshare.png$image
+
+! 2024-05-08 https://transit.yahoo.co.jp
+transit.yahoo.co.jp##.footerInner
+
+! 2024-05-12 https://katfile.com
+katfile.com###container > p
+katfile.com##p:nth-of-type(2)
+
+! 2024-05-12 https://fikper.com
+||fikper.com/img/download.png$image
+
+! 2024-05-15 https://chatgpt.com R18 警告
+chatgpt.com##.juice\:mt-0.mt-2.bg-orange-500\/10.border-orange-500.text-token-text-primary.text-sm.rounded-md.border.px-3.py-2.mb-2
+
+eddiarchive.com##img[src*="a8.net"]
+
+! 2024-05-21 https://apkaward.com
+apkaward.com##[href^="https://mobileoffers-download-five.com/181/182"]
+
+! 2024/05/28 https://www.gequbao.com
+||s21.ax1x.com/2024/03/18/pFRC8UJ.jpg$image
+
+! 2024/06/03 https://kdroidwin.hatenablog.com
+kdroidwin.hatenablog.com##.is-responsive-and-browsing-with-smartphone.blog-controlls
+
+
+! 2024/06/13 https://x.com
+x.com##a.r-1loqt21.r-1ny4l3l.r-1777fci.r-wgabs5.r-rull8r.r-oucylx.r-1awozwy.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(3)
+x.com##a.r-1loqt21.r-1ny4l3l.r-1777fci.r-wgabs5.r-rull8r.r-oucylx.r-1awozwy.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(6)
+
+! 2024/06/17 https://kimini.online
+kimini.online###custom_html-6 > .custom-html-widget.textwidget
+
+! 2024/07/09 https://kdroidwin.hatenablog.com
+kdroidwin.hatenablog.com##.variable-rectangle-ad.adx-responsive-mode
+
+! 2024/07/11 https://kdroidwin.hatenablog.com
+kdroidwin.hatenablog.com##.hatenablog-entry.entry-content > .variable-rectangle-ad
+kdroidwin.hatenablog.com##.entry-footer > .variable-rectangle-ad
+
+! 2024/07/11 https://moiqu7lion.hatenablog.jp
+moiqu7lion.hatenablog.jp###modal-body > div
+moiqu7lion.hatenablog.jp###modal-overlay
+
+! 2024/07/17 https://pingporn.ru
+pingporn.ru###fluid-player
+pingporn.ru###fluid-player_fluid_initial_play
+
+! 2024/07/18 https://apkaward.com
+apkaward.com##[href^="https://mobileoffers-download-e.com/181/182"]
+
+! 2024/07/18 https://itest.5ch.net 広告枠
+itest.5ch.net##.ad_5th_300x250
+
+! 2024/07/19 https://simadzu.hatenablog.com ad
+simadzu.hatenablog.com##.hatenablog-entry.entry-content > .variable-rectangle-ad
+simadzu.hatenablog.com##.variable-rectangle-ad.adx-responsive-mode
+
+! 2024/07/19 https://kdroidwin.hatenablog.com
+kdroidwin.hatenablog.com##.entry-header-html > p
+
+! 2024/07/19 https://dic.pixiv.net
+dic.pixiv.net###ad_sp_toparticle
+
+! 2024/07/23 https://www.reddit.com
+www.reddit.com##.pt-\[var\(--page-y-padding\)\].v2.overflow-visible > shreddit-async-loader
+
+! 2024/07/23 https://officeforest.org
+officeforest.org##.adsense-wrapper2
+officeforest.org##div.code-block-adsense-pattern.code-block-89.code-block:nth-of-type(n)
+
+! 07/24 https://www.j-cast.com 広告ブロック検出ポップアップ
+www.j-cast.com##.pi_modal
+
+! 2024/07/25 https://adguard.com 購入
+adguard.com##.flash-wrapper-wrap
+
+! 2024/07/29 https://channel-jk.com
+channel-jk.com##div.rss2-iframe:nth-of-type(1)
+
+! 2024/08/02 https://141tube.com
+141tube.com##.ad-resume
+141tube.com##.ad-close
+
+! 2024/08/02 https://noni-jav.cc クソ違反報告
+||noni-jav.cc/wp-content/uploads/2024/03/jipohantai.jpg$image
+
+! 2024/08/04 https://genshin.5chmap.com まとめアンテナ広告
+genshin.5chmap.com##a#article-0:has-text(無料で大量)
+
+! 2024/08/04 https://priv.au
+priv.au##.safesearch
+
+!  searx.tiekoetter.com セーフサーチ カテゴリ
+searx.tiekoetter.com##.safesearch
+searx.tiekoetter.com##button.category_button:has-text(情報技術)
+searx.tiekoetter.com##button.category_button:has-text(科学)
+searx.tiekoetter.com##button.category_button:has-text(ソーシャルメディア)
+
+! 2024/08/05 https://gigazine.net 募金
+gigazine.net###donate_footer
+
+! 2024/08/06 https://www.reddit.com ブラウザで続ける
+www.reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-loader
+
+! 送料がかかる要素を目立たせる
+amazon.com##.a-spacing-base > span[data-csa-c-delivery-price^="料 ¥"][data-csa-c-delivery-type="配送"]:style(font-size: 25px !important; background-color: #351cff !important; display: block !important; color: #fff4f4 !important; padding: 10px !important; border-radius: 10px !important;)
+
+
+!fake download button
+ziperto.com##a[href*="aixodostemon.click"]
+
+! 2024/10/29 https://takatakijou.hatenablog.com
+takatakijou.hatenablog.com##.touch-quote-box
+||cdn.blog.st-hatena.com/images/admin/message/message-info.svg?version=95ef56055d1a227435d3af20c28c17$image
